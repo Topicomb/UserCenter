@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Topicomb.UserCenter", "src\Topicomb.UserCenter\Topicomb.UserCenter.xproj", "{061FCF15-1340-40BA-8AD0-DA7D3D1E393E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{05B811AB-6793-4147-B39F-71E4F732CFC7}"
+	ProjectSection(SolutionItems) = preProject
+		LICENSE = LICENSE
+		NuGet.config = NuGet.config
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Topicomb.UserCenter.Test", "test\Topicomb.UserCenter.Test\Topicomb.UserCenter.Test.xproj", "{1BD003DB-D2DF-4D3C-AECE-3079859E0229}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{061FCF15-1340-40BA-8AD0-DA7D3D1E393E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{061FCF15-1340-40BA-8AD0-DA7D3D1E393E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{061FCF15-1340-40BA-8AD0-DA7D3D1E393E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{061FCF15-1340-40BA-8AD0-DA7D3D1E393E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1BD003DB-D2DF-4D3C-AECE-3079859E0229}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1BD003DB-D2DF-4D3C-AECE-3079859E0229}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1BD003DB-D2DF-4D3C-AECE-3079859E0229}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1BD003DB-D2DF-4D3C-AECE-3079859E0229}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
